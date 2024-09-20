@@ -1,0 +1,19 @@
+.custom-select {
+    appearance: none; /* Remove default browser styling */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-image: url(/images/calendar_month.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+}
+
+.custom-select option {
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.custom-select option i {
+    margin-right: 5px; /* Adjust margin as needed */
+}
